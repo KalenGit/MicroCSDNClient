@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="navdrawer_width">260dp</dimen>
+    <dimen name="blog_content_textSize">10sp</dimen>
+    <dimen name="blog_time_textSize">9sp</dimen>
+    <dimen name="blog_margin_width">9dp</dimen>
+</resources>

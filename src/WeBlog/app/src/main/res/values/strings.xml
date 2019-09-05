@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeBlog</string>
+    <string name="toolbar">个人微型博客</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="url_blogs">https://blog.csdn.net/hao5335156</string>
+    <string name="url_home">https://www.csdn.net/</string>
+    <string name="url_me">https://blog.csdn.net/hao5335156</string>
+</resources>

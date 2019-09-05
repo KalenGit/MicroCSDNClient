@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blog_item"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/blog_margin_width"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/blog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="TensorFlow2.0部署"/>
+    <TextView
+        android:id="@+id/blog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/blog_content_textSize"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:text="TensorFlow2.0部署cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/blog_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/blog_time_textSize"
+            android:text="2018年12月11日"/>
+        <TextView
+            android:id="@+id/blog_readNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/blog_margin_width"
+            android:textSize="@dimen/blog_time_textSize"
+            android:drawableLeft="@mipmap/read"
+            android:gravity="center_vertical"
+            android:text="112"/>
+        <TextView
+            android:id="@+id/blog_discussNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/blog_margin_width"
+            android:textSize="@dimen/blog_time_textSize"
+            android:text="评论 2"/>
+    </LinearLayout>
+
+</LinearLayout>

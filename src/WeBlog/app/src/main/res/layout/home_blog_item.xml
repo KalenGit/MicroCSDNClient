@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blog_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/blog_margin_width"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/blog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TensorFlow2.0部署"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:text="TensorFlow2.0部署cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        android:textSize="@dimen/blog_content_textSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@mipmap/csdn"
+                android:id="@+id/blog_authorUrl"
+                android:layout_width="9dp"
+                android:layout_height="9dp" />
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:id="@+id/blog_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/blog_time_textSize"
+                android:text="作者"/>
+            <View
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="0.5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_height="10dp"/>
+            <TextView
+                android:id="@+id/blog_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018年12月11日"
+                android:textSize="@dimen/blog_time_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical|right"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/blog_readNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/blog_margin_width"
+                android:gravity="center_vertical"
+                android:text="阅读数12"
+                android:textSize="@dimen/blog_time_textSize" />
+            <View
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_width="0.5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_height="10dp"/>
+            <TextView
+                android:id="@+id/blog_discussNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/blog_margin_width"
+                android:text="评论 2"
+                android:textSize="@dimen/blog_time_textSize" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
