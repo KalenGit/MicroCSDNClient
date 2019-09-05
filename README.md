@@ -12,34 +12,34 @@ https://blog.csdn.net/hao5335156
 
 #### 一、导航栏页面
 DrawerLayout + Fragment 实现
-<div  align="center">    
+<div  align="left">    
 <img src="img/导航栏.jpg" width = "324" height = "684" alt="导航栏.jpg" />
 </div>
 
 #### 二、首页（CSDN博客推荐列表）
 RecyclerView + 自定义RecyclerViewAdapter实现
-<div  align="center">    
+<div  align="left">    
 <img src="img/CSDN博客推荐列表.jpg" width = "324" height = "684" alt="CSDN博客推荐列表.jpg" />
 </div>
 
 #### 三、我的博客（个人博客列表）
 RecyclerView + 自定义RecyclerViewAdapter实现
-<div  align="center">    
+<div  align="left">    
 <img src="img/个人博客列表.jpg" width = "324" height = "684" alt="个人博客列表.jpg" />
 </div>
 
 #### 四、个人中心（个人博客信息中心）
 LinearLayout权重比例布局实现
-<div  align="center">    
+<div  align="left">    
 <img src="img/个人博客信息中心.jpg" width = "324" height = "684" alt="个人博客信息中心.jpg" />
 </div>
 
 #### 五、其他
 客户端的个人博客数据由Jsoup解析,每个博客列表-item通过WebView加载对应的url
-<div  align="center">    
+<div  align="left">    
 <img src="img/CSDN博客推荐列表-item.jpg" width = "324" height = "684" alt="CSDN博客推荐列表-item.jpg" />
 </div>
-<div  align="center">    
+<div  align="left">    
 <img src="img/个人博客列表-item.jpg" width = "324" height = "684" alt="个人博客列表-item.jpg" />
 </div>
 
